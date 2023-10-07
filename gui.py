@@ -20,7 +20,7 @@ def open_pdf():
             a=int(start)
             b=int(end)
             splitter(file_name, [a, b])
-            tk.messagebox.showinfo("PDF has been splitted! Check the directory of the original PDF.")
+            tk.messagebox.showinfo("PDF Splitting done!","PDF has been splitted! Check the directory of the original PDF.")
 
 # Create the main window
 root = tk.Tk()
